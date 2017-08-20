@@ -1,7 +1,6 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-
 var app = express();
 app.use(morgan('combined'));
 
@@ -11,7 +10,7 @@ app.get('/', function (req, res) {
 
 app.get('/article-One',function(req,res)
 {
-    res.send('Article one requisted and will be server here');
+    res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
 app.get('/article-Two',function(req,res)
 {
