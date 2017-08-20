@@ -14,11 +14,11 @@ app.get('/article-One',function(req,res)
 });
 app.get('/article-Two',function(req,res)
 {
-    res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
+    res.sendFile(path.join(__dirname, 'ui', 'article.two.html'));
 });
 app.get('/article-Three',function(req,res)
 {
-     res.sendFile(path.join(__dirname, '', 'article-Three.html'));
+     res.sendFile(path.join(__dirname, '', 'article.Three.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
