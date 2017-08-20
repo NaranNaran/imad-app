@@ -25,7 +25,7 @@ content:`<p>
                 This is the content for  my first article.This is the content for  my first article.
             </p>`
 },
-   'article-two': {
+   'articleTwo': {
 title:'Article Two | Naran',
 heading:'Article Two',
 date:'Aug 21,2017',
@@ -33,7 +33,7 @@ content:`<p>
                 This is the content for  my second article.
               </p>  `
 },
- 'article-three': {
+ 'articleThree': {
 title:'Article Three | Naran',
 heading:'Article Three',
 date:'Aug 22,2017',
