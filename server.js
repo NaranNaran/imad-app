@@ -6,7 +6,7 @@ app.use(morgan('combined'));
 
 var articles={ 
     'article-one':{
-//title:'Article One | Naran',
+title:'Article One | Naran',
 heading:'Article One',
 date:'Aug 20,2017',
 content:`<p>
@@ -43,7 +43,7 @@ content:`<p>
 }
 };
 function createTemplate (data){
-    //var title=data.title;
+    var title=data.title;
     var date=data.date;
     var heading=data.heading;
     var content=data.content;
