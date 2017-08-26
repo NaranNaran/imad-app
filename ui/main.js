@@ -27,7 +27,7 @@ submit.onclick=function(){
     //Make request to the server and send the name
     //Capture a list of Names and render it as a list
     var Names=['name1','name2','name3','name4'];
-    var list="";
+    var list='';
     for(var i=0; Names.Length; i++){
         list +='<li>' + Names[i] + '</li>';
         }
