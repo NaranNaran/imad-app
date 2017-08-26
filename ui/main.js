@@ -28,7 +28,7 @@ submit.onclick=function(){
     //Capture a list of Names and render it as a list
     var Names=['name1','name2','name3','name4'];
     var list='';
-    for(var i=0; i<Names.Length; i++){
+    for(var i=0; i < Names.Length; i++){
         list +='<li>' + Names[i] + '</li>';
         }
         var ul=documnent.getElementById("namelist");
