@@ -16,6 +16,6 @@ button.onclick=function(){
       //Not done yet
     };
    //Make the request
-   //request.open('GET','http://tarajstar2013.imad.hasura-app.io/counter',true);
+   request.open('GET','http://tarajstar2013.imad.hasura-app.io/counter',true);
    //request.send(null);
 };
