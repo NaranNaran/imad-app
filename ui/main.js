@@ -19,3 +19,18 @@ button.onclick=function(){
    request.open('GET','http://tarajstar2013.imad.hasura-app.io/counter',true);
    request.send(null);
 };
+//Submit Name
+var nameInput=document.getElementById("name");
+var name=nameInput.value;
+var submit=document.getElementById("submit_btn");
+submit.onclick=function(){
+    //Make request to the server and send the name
+    //Capture a list of Names and render it as a list
+    var Names=['name1','name2','name3','name4'];
+    var list="";
+    for(var i=0; Names.Length; i++){
+        list +='<li>' + Names[i] + '</li>';
+        }
+        var ul=documnent.getElementById("namelist");
+        ul.innerHTML=list;
+};
