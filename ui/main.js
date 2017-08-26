@@ -26,10 +26,10 @@ var submit=document.getElementById("submit_btn");
 submit.onclick=function(){
     //Make request to the server and send the name
     //Capture a list of Names and render it as a list
-    var Names=['name1','name2','name3','name4'];
+    var names=['name1','name2','name3','name4'];
     var list='';
-    for(var i=0; i < Names.Length; i++){
-        list +='<li>' + Names[i] + '</li>';
+    for(var i=0; i < names.Length; i++){
+        list +='<li>' + names[i] + '</li>';
         }
         var ul=document.getElementById('namelist');
         ul.innerHTML=list;
