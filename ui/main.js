@@ -17,9 +17,7 @@ button.onclick=function(){
    request.open('GET','http://tarajstar2013.imad.hasura-app.io/counter',true);
    request.send(null);
 };
-//Submit Name
-var nameInput=document.getElementById('name');
-var name=nameInput.value;
+   //Submit Name
 var submit=document.getElementById("submit_btn");
 submit.onclick=function(){
     //Create a request object
@@ -43,6 +41,9 @@ submit.onclick=function(){
       //Not done yet
     };
    //Make the request
+
+   var nameInput=document.getElementById('name');
+   var name=nameInput.value;
    request.open('GET','http://tarajstar2013.imad.hasura-app.io/submit-name?name=' + name,true);
    request.send(null);
 
