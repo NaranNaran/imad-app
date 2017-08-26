@@ -26,7 +26,7 @@ submit.onclick=function(){
     request.onreadystatechange=function(){
       if(request.readyState===XMLHttpRequest.DONE) {
           //Take some action
-          if(request.status===20){
+          if(request.status===200){
     //Capture a list of Names and render it as a list
     var names=request.responseText;
     names=JSON.parse(names);
